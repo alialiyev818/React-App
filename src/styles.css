@@ -27,6 +27,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+    align-items: flex-start; /* Align items to the start of the cross axis */
   }
   
   .note {
@@ -36,7 +37,6 @@ body {
     margin: 10px;
     padding: 20px;
     width: 300px;
-    min-height: 150px;
   }
   
   .note h2 {
@@ -58,5 +58,21 @@ body {
     max-width: 100%;
     border-radius: 4px;
     margin-top: 10px;
+  }
+  
+  .note ul {
+    list-style: none; /* Removes the default list styling */
+    padding-left: 0; /* Removes the default padding */
+    margin: 10px 0;
+  }
+  
+  .note ul li {
+    margin-bottom: 5px; /* Adds space between list items */
+    line-height: 1.5; /* Adjust line spacing for better readability */
+  }
+  
+  .note ul li:not(:last-child) {
+    border-bottom: 1px solid #e0e0e0; /* Adds a separator between items */
+    padding-bottom: 5px; /* Adds space above the separator */
   }
   

@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <header>
-        <h1>My Notes App</h1>
+        <h1>Ali Notes</h1>
       </header>
       <main>
         {notes.map((note, index) => (
@@ -15,7 +15,7 @@ const App = () => {
         ))}
       </main>
       <footer>
-        <p>Footer Content</p>
+        <p>Organization is the key for Productivy</p>
       </footer>
     </div>
   );
