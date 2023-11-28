@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.js": "/alialiyev818/React-App/static/js/main.deb108c1.js",
+    "main.css": "/alialiyev818/React-App/static/css/main.4e224092.css",
+    "main.js": "/alialiyev818/React-App/static/js/main.714f3ec4.js",
+    "static/media/image4.png": "/alialiyev818/React-App/static/media/image4.53295f325c585e9bcd22.png",
+    "static/media/image2.jpg": "/alialiyev818/React-App/static/media/image2.ac44c3a0a9fd34d80ed2.jpg",
+    "static/media/image1.jpg": "/alialiyev818/React-App/static/media/image1.68a21a159571be826cc8.jpg",
     "index.html": "/alialiyev818/React-App/index.html",
-    "main.deb108c1.js.map": "/alialiyev818/React-App/static/js/main.deb108c1.js.map"
+    "main.4e224092.css.map": "/alialiyev818/React-App/static/css/main.4e224092.css.map",
+    "main.714f3ec4.js.map": "/alialiyev818/React-App/static/js/main.714f3ec4.js.map"
   },
   "entrypoints": [
-    "static/js/main.deb108c1.js"
+    "static/css/main.4e224092.css",
+    "static/js/main.714f3ec4.js"
   ]
 }
