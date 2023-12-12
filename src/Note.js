@@ -3,7 +3,7 @@ import React from 'react';
 const Note = ({ note: { title, content, createdDate, image } }) => {
   const contentLines = content.split('\n');
 
-  // Event handler for click event
+
   const handleClick = () => {
     alert(`Title: ${title}\nCreated on: ${createdDate}`);
   };
